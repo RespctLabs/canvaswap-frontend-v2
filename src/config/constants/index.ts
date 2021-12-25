@@ -20,7 +20,16 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     mainnetTokens.eth,
     mainnetTokens.usdc,
   ],
-  [ChainId.BSCTESTNET]: [testnetTokens.wbnb, testnetTokens.cake, testnetTokens.busd],
+  [ChainId.BSCTESTNET]: [
+    testnetTokens.wbnb,
+    testnetTokens.cake,
+    testnetTokens.busd,
+    testnetTokens.SANDY,
+    testnetTokens.UTS,
+    testnetTokens.heemv,
+    testnetTokens.KSM,
+    testnetTokens.CHHOTA,
+  ],
 }
 
 /**
@@ -43,13 +52,31 @@ export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: To
 // used for display in the default list when adding liquidity
 export const SUGGESTED_BASES: ChainTokenList = {
   [ChainId.MAINNET]: [mainnetTokens.busd, mainnetTokens.cake, mainnetTokens.btcb],
-  [ChainId.BSCTESTNET]: [testnetTokens.wbnb, testnetTokens.cake, testnetTokens.busd],
+  [ChainId.BSCTESTNET]: [
+    testnetTokens.wbnb,
+    testnetTokens.cake,
+    testnetTokens.busd,
+    testnetTokens.SANDY,
+    testnetTokens.UTS,
+    testnetTokens.heemv,
+    testnetTokens.KSM,
+    testnetTokens.CHHOTA,
+  ],
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   [ChainId.MAINNET]: [mainnetTokens.wbnb, mainnetTokens.dai, mainnetTokens.busd, mainnetTokens.usdt],
-  [ChainId.BSCTESTNET]: [testnetTokens.wbnb, testnetTokens.cake, testnetTokens.busd],
+  [ChainId.BSCTESTNET]: [
+    testnetTokens.wbnb,
+    testnetTokens.cake,
+    testnetTokens.busd,
+    testnetTokens.SANDY,
+    testnetTokens.UTS,
+    testnetTokens.heemv,
+    testnetTokens.KSM,
+    testnetTokens.CHHOTA,
+  ],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
@@ -57,6 +84,7 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
     [mainnetTokens.cake, mainnetTokens.wbnb],
     [mainnetTokens.busd, mainnetTokens.usdt],
     [mainnetTokens.dai, mainnetTokens.usdt],
+    [testnetTokens.SANDY, testnetTokens.UTS],
   ],
 }
 

@@ -23,14 +23,13 @@ import { filterTokens } from '../components/SearchModal/filtering'
 function useTokensFromMap(tokenMap: TokenAddressMap, includeUserAdded: boolean): { [address: string]: Token } {
   const { chainId } = useActiveWeb3React()
   const userAddedTokens = useUserAddedTokens()
-  console.log(chainId, tokenMap)
 
   return useMemo(() => {
     if (!chainId) return {}
 
     // reduce to just tokens
-    const mapWithoutUrls = Object.keys(tokenMap[137]).reduce<{ [address: string]: Token }>((newMap, address) => {
-      newMap[address] = tokenMap[137][address].token
+    const mapWithoutUrls = Object.keys(tokenMap[chainId]).reduce<{ [address: string]: Token }>((newMap, address) => {
+      newMap[address] = tokenMap[chainId][address].token
       return newMap
     }, {})
 
@@ -67,7 +66,6 @@ export function useAllTokens(): { [address: string]: Token } {
 export function useAllInactiveTokens(): { [address: string]: Token } {
   // get inactive tokens
   const inactiveTokensMap = useCombinedInactiveList()
-  console.log(inactiveTokensMap)
   const inactiveTokens = useTokensFromMap(inactiveTokensMap, false)
 
   // filter out any token that are on active list

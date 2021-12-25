@@ -1842,6 +1842,46 @@ export const mainnetTokens = {
 }
 
 export const testnetTokens = {
+  KSM: new Token(
+    BSCTESTNET,
+    '0x29fcDa8965D417d7CE981e941c90b87099504AE9',
+    18,
+    'KSM',
+    'KABIR Token',
+    'https://www.binance.com/',
+  ),
+  CHHOTA: new Token(
+    BSCTESTNET,
+    '0x40fe25d7a6fa36fb99f0316b293eBD4762408ff4',
+    18,
+    'CHHOTA',
+    'CHOTTA ANSHUL coin',
+    'https://www.binance.com/',
+  ),
+  UTS: new Token(
+    BSCTESTNET,
+    '0xb859980c32Da9b98FfF9B18CA04ee97D6bf10A8F',
+    18,
+    'UTS',
+    'Utsav Token',
+    'https://www.binance.com/',
+  ),
+  SANDY: new Token(
+    BSCTESTNET,
+    '0x51F6c7Ad98B1a644452ECf05eDDCa70FD5ec0A30',
+    18,
+    'SANDY',
+    'Sandy coin',
+    'https://www.binance.com/',
+  ),
+  heemv: new Token(
+    BSCTESTNET,
+    '0x31C6F857a19639f19A9460b6D6157A50CC77e77D',
+    18,
+    'HEEMV',
+    'Heemank Token',
+    'https://www.binance.com/',
+  ),
   wbnb: new Token(
     BSCTESTNET,
     '0x094616F0BdFB0b526bD735Bf66Eca0Ad254ca81F',
