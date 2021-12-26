@@ -2636,19 +2636,6 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap/sdk@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@pancakeswap/sdk/-/sdk-2.4.0.tgz#5da040384419cb45ea2b6eee8104d05914e8bd28"
-  integrity sha512-c5cLOMVa/dlbVbURPpSY6oNSYm61xN5NgfoYCXY88NisHbgLWd/MNHoM98XjgeJFs7OlKcf4G7nui4XGM9lDSA==
-  dependencies:
-    "@pancakeswap-libs/pancake-swap-core" "^0.1.0"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.1"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
-
 "@pancakeswap/uikit@^0.59.0":
   version "0.59.0"
   resolved "https://registry.yarnpkg.com/@pancakeswap/uikit/-/uikit-0.59.0.tgz#f019490f2c57dfcc9a5324f4e662601b298342c8"
@@ -2823,6 +2810,19 @@
     "@resolver-engine/core" "^0.2.1"
     debug "^3.1.0"
     hosted-git-info "^2.6.0"
+
+"@respctclub/sdk@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@respctclub/sdk/-/sdk-0.0.2.tgz#73b34f155cf8aa0e5508ca2c0069bc44e81a31bd"
+  integrity sha512-SyKmOhWEZDNaPDg8EHpKobKi7AS1D5YDRm/fWL92I2/qP6rwf2igZPiEHxQr0gJHp/GlM6/NUSWBPSX/O55VGw==
+  dependencies:
+    "@pancakeswap-libs/pancake-swap-core" "^0.1.0"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
 
 "@rollup/plugin-node-resolve@^7.1.1":
   version "7.1.3"

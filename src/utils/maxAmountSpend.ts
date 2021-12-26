@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI } from '@pancakeswap/sdk'
+import { CurrencyAmount, ETHER, JSBI } from '@respctclub/sdk'
 import { MIN_BNB } from '../config/constants'
 
 /**
