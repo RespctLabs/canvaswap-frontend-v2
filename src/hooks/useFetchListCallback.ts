@@ -17,7 +17,7 @@ function useFetchListCallback(): (listUrl: string, sendDispatch?: boolean) => Pr
 
   const ensResolver = useCallback(
     (ensName: string) => {
-      if (chainId !== ChainId.BSCTESTNET) {
+      if (chainId !== ChainId.MAINNET) {
         throw new Error('Could not construct mainnet ENS resolver')
       }
       return resolveENSContentHash(ensName, library)
@@ -32,6 +32,8 @@ function useFetchListCallback(): (listUrl: string, sendDispatch?: boolean) => Pr
       if (sendDispatch) {
         dispatch(fetchTokenList.pending({ requestId, url: listUrl }))
       }
+      console.log(listUrl)
+
       return getTokenList(listUrl, ensResolver)
         .then((tokenList) => {
           if (sendDispatch) {
