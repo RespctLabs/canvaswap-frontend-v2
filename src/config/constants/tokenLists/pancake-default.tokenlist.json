@@ -11,6 +11,54 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
+      "name": "SENT Token",
+      "symbol": "SENT",
+      "address": "0xDe61B2517185b04E061ef7480bBd007460D579fB",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": ""
+    },
+    {
+      "name": "Beast Token",
+      "symbol": "Beast",
+      "address": "0x1a85d1b9cc3283cc9FbD828bBdDA1a717C99ab1B",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": ""
+    },
+    {
+      "name": "TVF Token",
+      "symbol": "TVF",
+      "address": "0x647E2B8F100244bC869CB2898404Ef31F1713015",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": ""
+    },
+    {
+      "name": "TANBH Token",
+      "symbol": "TANBH",
+      "address": "0xB5a838D1f8Ff60d6a5C6F8c0FAa4ED2Ecec70D7B",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": ""
+    },
+    {
+      "name": "SMRA Token",
+      "symbol": "SMRA",
+      "address": "0x500f57113E84bdeEC1Cf3618bFe1f7BaC5231B26",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": ""
+    },
+    {
+      "name": "MKBHD Token",
+      "symbol": "MKBHD",
+      "address": "0x09830Aa74eb384D912D0bB41b29Daa7902b9d1b9",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": ""
+    },
+    {
       "name": "KABIR Token",
       "symbol": "KSM",
       "address": "0x29fcDa8965D417d7CE981e941c90b87099504AE9",

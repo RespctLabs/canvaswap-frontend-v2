@@ -100,6 +100,8 @@ export function activeListeningKeys(
       .reduce((previousMin, current) => {
         return Math.min(previousMin, parseInt(current))
       }, Infinity)
+    console.log(memo)
+
     return memo
   }, {})
 }
@@ -217,7 +219,7 @@ export default function Updater(): null {
               console.debug('Cancelled fetch for blockNumber', currentBlock)
               return
             }
-            console.error('Failed to fetch multicall chunk', chunk, chainId, error)
+            console.error('Failed to fetch multicall chunk1', chunk, chainId, error)
             dispatch(
               errorFetchingMulticallResults({
                 calls: chunk,

@@ -54,6 +54,8 @@ function useCallsData(calls: (Call | undefined)[], options?: ListenerOptions): C
   const callResults = useSelector<AppState, AppState['multicall']['callResults']>(
     (state) => state.multicall.callResults,
   )
+  // console.log(callResults)
+
   const dispatch = useDispatch<AppDispatch>()
 
   const serializedCallKeys: string = useMemo(
@@ -212,6 +214,7 @@ export function useMultipleContractSingleData(
     () =>
       fragment && addresses && addresses.length > 0 && callData
         ? addresses.map<Call | undefined>((address) => {
+            // console.log(address, callData)
             return address && callData
               ? {
                   address,
@@ -224,6 +227,7 @@ export function useMultipleContractSingleData(
   )
 
   const results = useCallsData(calls, options)
+  // console.log(calls)
 
   const { currentBlock } = useBlock()
 
