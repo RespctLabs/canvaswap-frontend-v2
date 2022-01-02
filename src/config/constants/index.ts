@@ -10,17 +10,15 @@ type ChainTokenList = {
 
 // used to construct intermediary pairs for trading
 export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
-  [ChainId.MAINNET]: [
-    mainnetTokens.wbnb,
-    mainnetTokens.cake,
-    mainnetTokens.busd,
-    mainnetTokens.usdt,
-    mainnetTokens.btcb,
-    mainnetTokens.ust,
-    mainnetTokens.eth,
-    mainnetTokens.usdc,
-  ],
+  [ChainId.MAINNET]: [mainnetTokens.wbnb, mainnetTokens.cake],
   [ChainId.BSCTESTNET]: [
+    testnetTokens.SMRA,
+    testnetTokens.MKBHD,
+    testnetTokens.SENT,
+    testnetTokens.BEAST,
+    testnetTokens.TANBH,
+    testnetTokens.CAN,
+    testnetTokens.TVF,
     testnetTokens.wbnb,
     testnetTokens.cake,
     testnetTokens.busd,
@@ -51,8 +49,15 @@ export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: To
 
 // used for display in the default list when adding liquidity
 export const SUGGESTED_BASES: ChainTokenList = {
-  [ChainId.MAINNET]: [mainnetTokens.busd, mainnetTokens.cake, mainnetTokens.btcb],
+  [ChainId.MAINNET]: [mainnetTokens.cake],
   [ChainId.BSCTESTNET]: [
+    testnetTokens.SMRA,
+    testnetTokens.MKBHD,
+    testnetTokens.SENT,
+    testnetTokens.BEAST,
+    testnetTokens.TANBH,
+    testnetTokens.CAN,
+    testnetTokens.TVF,
     testnetTokens.wbnb,
     testnetTokens.cake,
     testnetTokens.busd,
@@ -66,8 +71,15 @@ export const SUGGESTED_BASES: ChainTokenList = {
 
 // used to construct the list of all pairs we consider by default in the frontend
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
-  [ChainId.MAINNET]: [mainnetTokens.wbnb, mainnetTokens.dai, mainnetTokens.busd, mainnetTokens.usdt],
+  [ChainId.MAINNET]: [mainnetTokens.wbnb],
   [ChainId.BSCTESTNET]: [
+    testnetTokens.SMRA,
+    testnetTokens.MKBHD,
+    testnetTokens.SENT,
+    testnetTokens.BEAST,
+    testnetTokens.TANBH,
+    testnetTokens.CAN,
+    testnetTokens.TVF,
     testnetTokens.wbnb,
     testnetTokens.cake,
     testnetTokens.busd,
@@ -82,8 +94,7 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
   [ChainId.MAINNET]: [
     [mainnetTokens.cake, mainnetTokens.wbnb],
-    [mainnetTokens.busd, mainnetTokens.usdt],
-    [mainnetTokens.dai, mainnetTokens.usdt],
+
     [testnetTokens.SANDY, testnetTokens.UTS],
   ],
 }
