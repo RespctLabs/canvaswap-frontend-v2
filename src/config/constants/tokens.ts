@@ -40,6 +40,14 @@ export const mainnetTokens = {
     'Binance USD',
     'https://www.paxos.com/busd/',
   ),
+  syrup: new Token(
+    MAINNET,
+    '0x009cF7bC57584b7998236eff51b98A168DceA9B0',
+    18,
+    'SYRUP',
+    'SyrupBar Token',
+    'https://pancakeswap.finance/',
+  ),
 }
 
 export const testnetTokens = {
@@ -187,9 +195,10 @@ const tokens = (): TokenList => {
 
   // If testnet - return list comprised of testnetTokens wherever they exist, and mainnetTokens where they don't
   if (parseInt(chainId, 10) === ChainId.BSCTESTNET) {
-    return Object.keys(mainnetTokens).reduce((accum, key) => {
-      return { ...accum, [key]: testnetTokens[key] || mainnetTokens[key] }
-    }, {})
+    return { ...testnetTokens, ...mainnetTokens }
+    // return Object.keys(mainnetTokens).reduce((accum, key) => {
+    //   return { ...accum, [key]: testnetTokens[key] || mainnetTokens[key] }
+    // }, {})
   }
 
   return mainnetTokens
@@ -197,6 +206,7 @@ const tokens = (): TokenList => {
 
 export const serializeTokens = (): SerializedTokenList => {
   const unserializedTokens = tokens()
+
   const serializedTokens = Object.keys(unserializedTokens).reduce((accum, key) => {
     return { ...accum, [key]: serializeToken(unserializedTokens[key]) }
   }, {})

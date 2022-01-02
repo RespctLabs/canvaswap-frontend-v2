@@ -47,12 +47,18 @@ const PoolsTable: React.FC<PoolsTableProps> = ({ pools, userDataLoaded, account 
     <StyledTableBorder>
       <StyledTable id="pools-table" role="table" ref={tableWrapperEl}>
         {pools.map((pool) => (
-          <PoolRow
-            key={pool.isAutoVault ? 'auto-cake' : pool.sousId}
-            pool={pool}
-            account={account}
-            userDataLoaded={userDataLoaded}
-          />
+          <>
+            {pool.isAutoVault ? (
+              'auto vault card here'
+            ) : (
+              <PoolRow
+                key={pool.isAutoVault ? 'auto-cake' : pool.sousId}
+                pool={pool}
+                account={account}
+                userDataLoaded={userDataLoaded}
+              />
+            )}
+          </>
         ))}
         <ScrollButtonContainer>
           <Button variant="text" onClick={scrollToTop}>
