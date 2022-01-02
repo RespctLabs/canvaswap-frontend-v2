@@ -68,7 +68,6 @@ function useSwapCallArguments(
         allowedSlippage: new Percent(JSBI.BigInt(allowedSlippage), BIPS_BASE),
         recipient,
         deadline: deadline.toNumber(),
-        ttl: 0,
       }),
     )
 
@@ -79,7 +78,6 @@ function useSwapCallArguments(
           allowedSlippage: new Percent(JSBI.BigInt(allowedSlippage), BIPS_BASE),
           recipient,
           deadline: deadline.toNumber(),
-          ttl: 0,
         }),
       )
     }

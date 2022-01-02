@@ -100,7 +100,6 @@ export function activeListeningKeys(
       .reduce((previousMin, current) => {
         return Math.min(previousMin, parseInt(current))
       }, Infinity)
-    console.log(memo)
 
     return memo
   }, {})
