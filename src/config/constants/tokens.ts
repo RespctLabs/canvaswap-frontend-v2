@@ -48,6 +48,22 @@ export const mainnetTokens = {
     'SyrupBar Token',
     'https://app.respct.club/',
   ),
+  safemoon: new Token(
+    MAINNET,
+    '0x8076C74C5e3F5852037F31Ff0093Eeb8c8ADd8D3',
+    9,
+    'SAFEMOON',
+    'Safemoon Token',
+    'https://safemoon.net/',
+  ),
+  bondly: new Token(
+    MAINNET,
+    '0x96058f8C3e16576D9BD68766f3836d9A33158f89',
+    18,
+    'BONDLY',
+    'Bondly Token',
+    'https://www.bondly.finance/',
+  ),
 }
 
 export const testnetTokens = {
