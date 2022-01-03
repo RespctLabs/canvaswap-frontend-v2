@@ -29,7 +29,7 @@ export const mainnetTokens = {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'https://app.respct.club/',
   ),
   tlos: new Token(MAINNET, '0xb6C53431608E626AC81a9776ac3e999c5556717c', 18, 'TLOS', 'Telos', 'https://www.telos.net/'),
   busd: new Token(
@@ -46,7 +46,7 @@ export const mainnetTokens = {
     18,
     'SYRUP',
     'SyrupBar Token',
-    'https://pancakeswap.finance/',
+    'https://app.respct.club/',
   ),
 }
 
@@ -162,7 +162,7 @@ export const testnetTokens = {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://pancakeswap.finance/',
+    'https://app.respct.club/',
   ),
   busd: new Token(
     BSCTESTNET,
@@ -178,7 +178,7 @@ export const testnetTokens = {
     18,
     'SYRUP',
     'SyrupBar Token',
-    'https://pancakeswap.finance/',
+    'https://app.respct.club/',
   ),
   bake: new Token(
     BSCTESTNET,
