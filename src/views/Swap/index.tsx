@@ -256,6 +256,7 @@ export default function Swap({ history }: RouteComponentProps) {
   const [onPresentSwapWarningModal] = useModal(<SwapWarningModal swapCurrency={swapWarningCurrency} />)
 
   const shouldShowSwapWarning = (swapCurrency) => {
+    console.log(swapCurrency, SwapWarningTokens)
     const isWarningToken = Object.entries(SwapWarningTokens).find((warningTokenConfig) => {
       const warningTokenData = warningTokenConfig[1]
       return swapCurrency.address === warningTokenData.address
@@ -274,6 +275,7 @@ export default function Swap({ history }: RouteComponentProps) {
     (inputCurrency) => {
       setApprovalSubmitted(false) // reset 2 step UI for approvals
       onCurrencySelection(Field.INPUT, inputCurrency)
+      console.log(inputCurrency)
       const showSwapWarning = shouldShowSwapWarning(inputCurrency)
       if (showSwapWarning) {
         setSwapWarningCurrency(inputCurrency)
