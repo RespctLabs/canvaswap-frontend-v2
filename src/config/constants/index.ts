@@ -1,7 +1,7 @@
 import { ChainId, JSBI, Percent, Token } from '@respctclub/sdk'
 import { mainnetTokens, testnetTokens } from './tokens'
 
-export const ROUTER_ADDRESS = '0xe1662823d8044254409eB682fE34d35792677228'
+export const ROUTER_ADDRESS = '0x924fEA4BD4c52400b609350bf254Ba9414e102c5'
 
 // a list of tokens by chain
 type ChainTokenList = {
