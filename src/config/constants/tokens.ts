@@ -19,7 +19,7 @@ export const mainnetTokens = {
     18,
     'WBNB',
     'Wrapped BNB',
-    'https://www.binance.com/',
+    'https://respct.club/',
   ),
   // bnb here points to the wbnb contract. Wherever the currency BNB is required, conditional checks for the symbol 'BNB' can be used
   bnb: new Token(MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'BNB', 'BNB', 'https://www.binance.com/'),
@@ -67,13 +67,21 @@ export const mainnetTokens = {
 }
 
 export const testnetTokens = {
+  RESPCT: new Token(
+    BSCTESTNET,
+    '0x48603c29C218C82DEca1DEe8d025c8c8FbCf5104',
+    18,
+    'RESPCT',
+    'RESPCT Token',
+    'https://respct.club/',
+  ),
   CAN: new Token(
     BSCTESTNET,
     '0x76514486123bCdB30e324ED1a78b54b389Ea6769',
     18,
     'CAN',
     'Canvas Token',
-    'https://www.binance.com/',
+    'https://respct.club/',
   ),
   SENT: new Token(
     BSCTESTNET,
@@ -81,7 +89,7 @@ export const testnetTokens = {
     18,
     'SENT',
     'SENT Token',
-    'https://www.binance.com/',
+    'https://respct.club/',
   ),
   BEAST: new Token(
     BSCTESTNET,
@@ -89,7 +97,7 @@ export const testnetTokens = {
     18,
     'Beast',
     'Beast Token',
-    'https://www.binance.com/',
+    'https://respct.club/',
   ),
   TVF: new Token(
     BSCTESTNET,
@@ -97,7 +105,7 @@ export const testnetTokens = {
     18,
     'TVF',
     'TVF Token',
-    'https://www.binance.com/',
+    'https://respct.club/',
   ),
   TANBH: new Token(
     BSCTESTNET,
@@ -105,7 +113,7 @@ export const testnetTokens = {
     18,
     'TANBH',
     'TANBH Token',
-    'https://www.binance.com/',
+    'https://respct.club/',
   ),
   SMRA: new Token(
     BSCTESTNET,
@@ -113,7 +121,7 @@ export const testnetTokens = {
     18,
     'SMRA',
     'SMRA Token',
-    'https://www.binance.com/',
+    'https://respct.club/',
   ),
   MKBHD: new Token(
     BSCTESTNET,
@@ -121,7 +129,7 @@ export const testnetTokens = {
     18,
     'MKBHD',
     'MKBHD Token',
-    'https://www.binance.com/',
+    'https://respct.club/',
   ),
 
   KSM: new Token(
@@ -130,7 +138,7 @@ export const testnetTokens = {
     18,
     'KSM',
     'KABIR Token',
-    'https://www.binance.com/',
+    'https://respct.club/',
   ),
   CHHOTA: new Token(
     BSCTESTNET,
@@ -138,7 +146,7 @@ export const testnetTokens = {
     18,
     'CHHOTA',
     'CHOTTA ANSHUL coin',
-    'https://www.binance.com/',
+    'https://respct.club/',
   ),
   UTS: new Token(
     BSCTESTNET,
@@ -146,7 +154,7 @@ export const testnetTokens = {
     18,
     'UTS',
     'Utsav Token',
-    'https://www.binance.com/',
+    'https://respct.club/',
   ),
   SANDY: new Token(
     BSCTESTNET,
@@ -154,7 +162,7 @@ export const testnetTokens = {
     18,
     'SANDY',
     'Sandy coin',
-    'https://www.binance.com/',
+    'https://respct.club/',
   ),
   heemv: new Token(
     BSCTESTNET,
@@ -162,7 +170,7 @@ export const testnetTokens = {
     18,
     'HEEMV',
     'Heemank Token',
-    'https://www.binance.com/',
+    'https://respct.club/',
   ),
   wbnb: new Token(
     BSCTESTNET,
@@ -170,7 +178,7 @@ export const testnetTokens = {
     18,
     'WBNB',
     'Wrapped BNB',
-    'https://www.binance.com/',
+    'https://respct.club/',
   ),
   cake: new Token(
     BSCTESTNET,
@@ -178,7 +186,7 @@ export const testnetTokens = {
     18,
     'CAKE',
     'PancakeSwap Token',
-    'https://app.respct.club/',
+    'https://respct.club/',
   ),
   busd: new Token(
     BSCTESTNET,

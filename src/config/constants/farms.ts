@@ -4,21 +4,8 @@ import { SerializedFarmConfig } from './types'
 const serializedTokens = serializeTokens()
 
 const farms: SerializedFarmConfig[] = [
-  /**
-   * These 3 farms (PID 0, 251, 252) should always be at the top of the file.
-   */
   {
     pid: 0,
-    lpSymbol: 'CAKE',
-    lpAddresses: {
-      137: '0x9C21123D94b93361a29B2C2EFB3d5CD8B17e0A9e',
-      80001: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
-    },
-    token: serializedTokens.syrup,
-    quoteToken: serializedTokens.wbnb,
-  },
-  {
-    pid: 251,
     lpSymbol: 'CAKE-BNB LP',
     lpAddresses: {
       137: '0x0AB3DeA50Da2dD253033c9488a2f0Ce7Af665c7d',
@@ -28,18 +15,65 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.wbnb,
   },
   {
-    pid: 252,
-    lpSymbol: 'BUSD-BNB LP',
+    pid: 1,
+    lpSymbol: 'BEAST-CAN LP',
     lpAddresses: {
-      137: '0x0AB3DeA50Da2dD253033c9488a2f0Ce7Af665c7d',
-      80001: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16',
+      137: '0xe66b545186033f92ff5957de502fca71da9c6b11',
+      80001: '0xe66b545186033f92ff5957de502fca71da9c6b11',
     },
-    token: serializedTokens.busd,
-    quoteToken: serializedTokens.wbnb,
+    token: serializedTokens.BEAST,
+    quoteToken: serializedTokens.CAN,
   },
-  /**
-   * V3 by order of release (some may be out of PID order due to multiplier boost)
-   */
+  {
+    pid: 2,
+    lpSymbol: 'MKBHD-CAN LP',
+    lpAddresses: {
+      137: '0xd5f5c21edb7efa43e811f10ceb703167062a6a15',
+      80001: '0xd5f5c21edb7efa43e811f10ceb703167062a6a15',
+    },
+    token: serializedTokens.MKBHD,
+    quoteToken: serializedTokens.CAN,
+  },
+  {
+    pid: 3,
+    lpSymbol: 'SENT-CAN LP',
+    lpAddresses: {
+      137: '0x64652a1c8a5cbd7f920f02766743ffb9fe14a423',
+      80001: '0x64652a1c8a5cbd7f920f02766743ffb9fe14a423',
+    },
+    token: serializedTokens.SENT,
+    quoteToken: serializedTokens.CAN,
+  },
+  {
+    pid: 4,
+    lpSymbol: 'SMRA-CAN LP',
+    lpAddresses: {
+      137: '0x29bcaa1e174282b945bc3d9808c9f75d8d3b2678',
+      80001: '0x29bcaa1e174282b945bc3d9808c9f75d8d3b2678',
+    },
+    token: serializedTokens.SMRA,
+    quoteToken: serializedTokens.CAN,
+  },
+  {
+    pid: 5,
+    lpSymbol: 'TANBH-CAN LP',
+    lpAddresses: {
+      137: '0x250eec60da82e4a52b19319a3c245b8c097f4b6a',
+      80001: '0x250eec60da82e4a52b19319a3c245b8c097f4b6a',
+    },
+    token: serializedTokens.TANBH,
+    quoteToken: serializedTokens.CAN,
+  },
+  {
+    pid: 6,
+    lpSymbol: 'TVF-CAN LP',
+    lpAddresses: {
+      137: '0x57442c997d0bd7f072bd7c702ad9dfdf726cccb6',
+      80001: '0x57442c997d0bd7f072bd7c702ad9dfdf726cccb6',
+    },
+    token: serializedTokens.TVF,
+    quoteToken: serializedTokens.CAN,
+  },
 ]
 
 export default farms
