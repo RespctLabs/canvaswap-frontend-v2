@@ -93,7 +93,7 @@ export const testnetTokens = {
   ),
   BEAST: new Token(
     BSCTESTNET,
-    '0x1a85d1b9cc3283cc9FbD828bBdDA1a717C99ab1B',
+    '0x69fcd17d83BAa70aBca88EcB536a042D207B02eA',
     18,
     'Beast',
     'Beast Token',
@@ -158,7 +158,7 @@ export const testnetTokens = {
   ),
   SANDY: new Token(
     BSCTESTNET,
-    '0x51F6c7Ad98B1a644452ECf05eDDCa70FD5ec0A30',
+    '0x294E0c9eDC7C81bF4268Cd580308b34258220296',
     18,
     'SANDY',
     'Sandy coin',

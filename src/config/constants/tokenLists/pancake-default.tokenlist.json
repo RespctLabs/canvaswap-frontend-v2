@@ -29,7 +29,7 @@
     {
       "name": "Beast Token",
       "symbol": "Beast",
-      "address": "0x1a85d1b9cc3283cc9FbD828bBdDA1a717C99ab1B",
+      "address": "0x69fcd17d83BAa70aBca88EcB536a042D207B02eA",
       "chainId": 80001,
       "decimals": 18,
       "logoURI": ""
@@ -93,7 +93,7 @@
     {
       "name": "Sandy coin",
       "symbol": "SANDY",
-      "address": "0x51F6c7Ad98B1a644452ECf05eDDCa70FD5ec0A30",
+      "address": "0x294E0c9eDC7C81bF4268Cd580308b34258220296",
       "chainId": 80001,
       "decimals": 18,
       "logoURI": ""
