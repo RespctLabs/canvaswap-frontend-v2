@@ -54,7 +54,7 @@ export default function useWrapCallback(
                 }
               }
             : undefined,
-        inputError: sufficientBalance ? undefined : 'Insufficient BNB balance',
+        inputError: sufficientBalance ? undefined : 'Insufficient MATIC Balance',
       }
     }
     if (currencyEquals(WETH[chainId], inputCurrency) && outputCurrency === ETHER) {
@@ -73,7 +73,7 @@ export default function useWrapCallback(
                 }
               }
             : undefined,
-        inputError: sufficientBalance ? undefined : 'Insufficient WBNB balance',
+        inputError: sufficientBalance ? undefined : 'Insufficient WMATIC Balance',
       }
     }
     return NOT_APPLICABLE
