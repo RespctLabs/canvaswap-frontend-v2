@@ -1,6 +1,6 @@
 import React from 'react'
 import { Price } from '@respctclub/sdk'
-import { Flex, Text } from '@pancakeswap/uikit'
+import { Flex, Text } from '@respctclub/uikit'
 import { multiplyPriceByAmount } from 'utils/prices'
 import { useTranslation } from 'contexts/Localization'
 import { formatBnb } from '../helpers'

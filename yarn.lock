@@ -2811,10 +2811,10 @@
     debug "^3.1.0"
     hosted-git-info "^2.6.0"
 
-"@respctclub/sdk@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@respctclub/sdk/-/sdk-0.0.2.tgz#73b34f155cf8aa0e5508ca2c0069bc44e81a31bd"
-  integrity sha512-SyKmOhWEZDNaPDg8EHpKobKi7AS1D5YDRm/fWL92I2/qP6rwf2igZPiEHxQr0gJHp/GlM6/NUSWBPSX/O55VGw==
+"@respctclub/sdk@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@respctclub/sdk/-/sdk-0.0.4.tgz#4048a2ac32771ce24e3ad639199ac6a36254d497"
+  integrity sha512-bKmnSBeCBCH0iSqjyLlqZZn74mj30fGRdaTFORZY/DdloDEbEfP5HjF/BIIZnVi75Lz17Z9LsKS8vIppYdBl1A==
   dependencies:
     "@pancakeswap-libs/pancake-swap-core" "^0.1.0"
     big.js "^5.2.2"
@@ -2823,6 +2823,19 @@
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
+
+"@respctclub/uikit@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@respctclub/uikit/-/uikit-0.0.4.tgz#ce4b091caf2775c3ed59464bc687759c3d7d9e10"
+  integrity sha512-KNeB54rDU+pWnofB3CCNf6UyP6ZuhpW/v8FfW/ExDg0Pw4xBVxNd+G1rmp2ZOOkZIiIOydzULqEBCQ2pZIX32A==
+  dependencies:
+    "@popperjs/core" "^2.9.2"
+    "@types/lodash" "^4.14.168"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-popper "^2.2.5"
+    rollup "^2.63.0"
+    styled-system "^5.1.5"
 
 "@rollup/plugin-node-resolve@^7.1.1":
   version "7.1.3"
@@ -18860,6 +18873,13 @@ rollup@^1.31.1:
     "@types/estree" "*"
     "@types/node" "*"
     acorn "^7.1.0"
+
+rollup@^2.63.0:
+  version "2.63.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.63.0.tgz#fe2f7fec2133f3fab9e022b9ac245628d817c6bb"
+  integrity sha512-nps0idjmD+NXl6OREfyYXMn/dar3WGcyKn+KBzPdaLecub3x/LrId0wUcthcr8oZUAcZAR8NKcfGGFlNgGL1kQ==
+  optionalDependencies:
+    fsevents "~2.3.2"
 
 rpc-websockets@^5.3.1:
   version "5.3.1"
