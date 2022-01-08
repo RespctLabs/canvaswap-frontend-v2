@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Box, Flex } from '@pancakeswap/uikit'
-import Footer from 'components/Menu/Footer'
+import { Flex } from '@pancakeswap/uikit'
 import { PageMeta } from 'components/Layout/Page'
 
 const StyledPage = styled.div<{ $removePadding: boolean }>`

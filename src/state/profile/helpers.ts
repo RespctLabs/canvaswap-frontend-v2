@@ -142,7 +142,7 @@ export const getProfile = async (address: string): Promise<GetProfileResponse> =
 
     return { hasRegistered, profile }
   } catch (e) {
-    console.error(e)
+    // console.error(e)
     return null
   }
 }
