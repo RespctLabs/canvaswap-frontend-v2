@@ -23,10 +23,8 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     testnetTokens.cake,
     testnetTokens.busd,
     testnetTokens.SANDY,
-    testnetTokens.UTS,
-    testnetTokens.heemv,
-    testnetTokens.KSM,
-    testnetTokens.CHHOTA,
+    testnetTokens.inr,
+    testnetTokens.JOSH
   ],
 }
 
@@ -62,10 +60,8 @@ export const SUGGESTED_BASES: ChainTokenList = {
     testnetTokens.cake,
     testnetTokens.busd,
     testnetTokens.SANDY,
-    testnetTokens.UTS,
-    testnetTokens.heemv,
-    testnetTokens.KSM,
-    testnetTokens.CHHOTA,
+    testnetTokens.inr,
+    testnetTokens.JOSH
   ],
 }
 
@@ -84,10 +80,8 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
     testnetTokens.cake,
     testnetTokens.busd,
     testnetTokens.SANDY,
-    testnetTokens.UTS,
-    testnetTokens.heemv,
-    testnetTokens.KSM,
-    testnetTokens.CHHOTA,
+    testnetTokens.inr,
+    testnetTokens.JOSH
   ],
 }
 
@@ -95,7 +89,7 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
   [ChainId.MAINNET]: [
     [mainnetTokens.cake, mainnetTokens.wbnb],
 
-    [testnetTokens.SANDY, testnetTokens.UTS],
+    [testnetTokens.SANDY, testnetTokens.inr],
   ],
 }
 

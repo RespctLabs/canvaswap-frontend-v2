@@ -85,7 +85,7 @@ export const testnetTokens = {
   ),
   SENT: new Token(
     BSCTESTNET,
-    '0xDe61B2517185b04E061ef7480bBd007460D579fB',
+    '0x24fB1d5D00317A9144795d8d1eeacdAC57Ee8681',
     18,
     'SENT',
     'SENT Token',
@@ -101,7 +101,7 @@ export const testnetTokens = {
   ),
   TVF: new Token(
     BSCTESTNET,
-    '0x647E2B8F100244bC869CB2898404Ef31F1713015',
+    '0x623b2109A22ab01b7E180cdA155E65246A05B3b9',
     18,
     'TVF',
     'TVF Token',
@@ -109,7 +109,7 @@ export const testnetTokens = {
   ),
   TANBH: new Token(
     BSCTESTNET,
-    '0xB5a838D1f8Ff60d6a5C6F8c0FAa4ED2Ecec70D7B',
+    '0x821d1e8AF1a4E4606d1E197A0458Fb1cE9D9b0ab',
     18,
     'TANBH',
     'TANBH Token',
@@ -117,7 +117,7 @@ export const testnetTokens = {
   ),
   SMRA: new Token(
     BSCTESTNET,
-    '0x500f57113E84bdeEC1Cf3618bFe1f7BaC5231B26',
+    '0xD95411F15e2d74377f9DC59c55654b7dd620Ac1e',
     18,
     'SMRA',
     'SMRA Token',
@@ -125,35 +125,10 @@ export const testnetTokens = {
   ),
   MKBHD: new Token(
     BSCTESTNET,
-    '0x09830Aa74eb384D912D0bB41b29Daa7902b9d1b9',
+    '0x643CFEeEc1cC6D097ed120001d62EE0be157560d',
     18,
     'MKBHD',
     'MKBHD Token',
-    'https://respct.club/',
-  ),
-
-  KSM: new Token(
-    BSCTESTNET,
-    '0x29fcDa8965D417d7CE981e941c90b87099504AE9',
-    18,
-    'KSM',
-    'KABIR Token',
-    'https://respct.club/',
-  ),
-  CHHOTA: new Token(
-    BSCTESTNET,
-    '0x40fe25d7a6fa36fb99f0316b293eBD4762408ff4',
-    18,
-    'CHHOTA',
-    'CHOTTA ANSHUL coin',
-    'https://respct.club/',
-  ),
-  UTS: new Token(
-    BSCTESTNET,
-    '0xb859980c32Da9b98FfF9B18CA04ee97D6bf10A8F',
-    18,
-    'UTS',
-    'Utsav Token',
     'https://respct.club/',
   ),
   SANDY: new Token(
@@ -164,12 +139,20 @@ export const testnetTokens = {
     'Sandy coin',
     'https://respct.club/',
   ),
-  heemv: new Token(
+  JOSH: new Token(
     BSCTESTNET,
-    '0x31C6F857a19639f19A9460b6D6157A50CC77e77D',
+    '0xaE24C973cDAd107454273F9E9d4c67C8C764DA41',
     18,
-    'HEEMV',
-    'Heemank Token',
+    'JOSH',
+    'Josh Talks Token',
+    'https://respct.club/',
+  ),
+  inr: new Token(
+    BSCTESTNET,
+    '0xd7e14191eA71179171f3C85EcDDf1cE06E820013',
+    18,
+    'INR',
+    'Indian National Rupee',
     'https://respct.club/',
   ),
   wbnb: new Token(
