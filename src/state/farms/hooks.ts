@@ -89,6 +89,7 @@ export const usePollCoreFarmData = () => {
 export const useFarms = (): DeserializedFarmsState => {
   const farms = useSelector((state: State) => state.farms)
   const deserializedFarmsData = farms.data.map(deserializeFarm)
+  console.log(deserializedFarmsData)
   const { loadArchivedFarmsData, userDataLoaded } = farms
   return {
     loadArchivedFarmsData,

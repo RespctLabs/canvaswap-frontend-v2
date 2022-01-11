@@ -147,7 +147,7 @@ export const testnetTokens = {
     'Josh Talks Token',
     'https://respct.club/',
   ),
-  inr: new Token(
+  INR: new Token(
     BSCTESTNET,
     '0xd7e14191eA71179171f3C85EcDDf1cE06E820013',
     18,

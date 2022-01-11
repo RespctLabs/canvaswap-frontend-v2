@@ -14,76 +14,77 @@ const farms: SerializedFarmConfig[] = [
   //   token: serializedTokens.cake,
   //   quoteToken: serializedTokens.wbnb,
   // },
-  // {
-  //   pid: 1,
-  //   lpSymbol: 'BEAST-CAN LP',
-  //   lpAddresses: {
-  //     137: '0xe66b545186033f92ff5957de502fca71da9c6b11',
-  //     80001: '0xe66b545186033f92ff5957de502fca71da9c6b11',
-  //   },
-  //   token: serializedTokens.BEAST,
-  //   quoteToken: serializedTokens.CAN,
-  // },
+
   {
     pid: 8,
-    lpSymbol: 'SANDY-BEAST LP',
+    lpSymbol: 'INR-BEAST LP',
     lpAddresses: {
-      137: '0xEE04607c04F0d64329E6317585cbAaED64f4F328',
-      80001: '0xEE04607c04F0d64329E6317585cbAaED64f4F328',
+      137: '0xfbb00b5eeb791c5dcc7c09555f873ec24bf2210f',
+      80001: '0xfbb00b5eeb791c5dcc7c09555f873ec24bf2210f',
     },
     token: serializedTokens.BEAST,
-    quoteToken: serializedTokens.SANDY,
+    quoteToken: serializedTokens.INR,
   },
-  // {
-  //   pid: 2,
-  //   lpSymbol: 'MKBHD-CAN LP',
-  //   lpAddresses: {
-  //     137: '0xd5f5c21edb7efa43e811f10ceb703167062a6a15',
-  //     80001: '0xd5f5c21edb7efa43e811f10ceb703167062a6a15',
-  //   },
-  //   token: serializedTokens.MKBHD,
-  //   quoteToken: serializedTokens.CAN,
-  // },
-  // {
-  //   pid: 3,
-  //   lpSymbol: 'SENT-CAN LP',
-  //   lpAddresses: {
-  //     137: '0x64652a1c8a5cbd7f920f02766743ffb9fe14a423',
-  //     80001: '0x64652a1c8a5cbd7f920f02766743ffb9fe14a423',
-  //   },
-  //   token: serializedTokens.SENT,
-  //   quoteToken: serializedTokens.CAN,
-  // },
-  // {
-  //   pid: 4,
-  //   lpSymbol: 'SMRA-CAN LP',
-  //   lpAddresses: {
-  //     137: '0x29bcaa1e174282b945bc3d9808c9f75d8d3b2678',
-  //     80001: '0x29bcaa1e174282b945bc3d9808c9f75d8d3b2678',
-  //   },
-  //   token: serializedTokens.SMRA,
-  //   quoteToken: serializedTokens.CAN,
-  // },
-  // {
-  //   pid: 5,
-  //   lpSymbol: 'TANBH-CAN LP',
-  //   lpAddresses: {
-  //     137: '0x250eec60da82e4a52b19319a3c245b8c097f4b6a',
-  //     80001: '0x250eec60da82e4a52b19319a3c245b8c097f4b6a',
-  //   },
-  //   token: serializedTokens.TANBH,
-  //   quoteToken: serializedTokens.CAN,
-  // },
-  // {
-  //   pid: 6,
-  //   lpSymbol: 'TVF-CAN LP',
-  //   lpAddresses: {
-  //     137: '0x57442c997d0bd7f072bd7c702ad9dfdf726cccb6',
-  //     80001: '0x57442c997d0bd7f072bd7c702ad9dfdf726cccb6',
-  //   },
-  //   token: serializedTokens.TVF,
-  //   quoteToken: serializedTokens.CAN,
-  // },
+  {
+    pid: 9,
+    lpSymbol: 'INR-MKBHD LP',
+    lpAddresses: {
+      137: '0xa5234c5ca5d07626a1c0929f0c84b708c80052f0',
+      80001: '0xa5234c5ca5d07626a1c0929f0c84b708c80052f0',
+    },
+    token: serializedTokens.MKBHD,
+    quoteToken: serializedTokens.INR,
+  },
+  {
+    pid: 10,
+    lpSymbol: 'INR-JOSH LP',
+    lpAddresses: {
+      137: '0xaf55a959599b4c83b265aee03ed6c6227a7d2fe4',
+      80001: '0xaf55a959599b4c83b265aee03ed6c6227a7d2fe4',
+    },
+    token: serializedTokens.JOSH,
+    quoteToken: serializedTokens.INR,
+  },
+  {
+    pid: 11,
+    lpSymbol: 'INR-SENT LP',
+    lpAddresses: {
+      137: '0xbb7d27923a806043c4bc8499181583fa8c136df3',
+      80001: '0xbb7d27923a806043c4bc8499181583fa8c136df3',
+    },
+    token: serializedTokens.SENT,
+    quoteToken: serializedTokens.INR,
+  },
+  {
+    pid: 12,
+    lpSymbol: 'INR-TVF LP',
+    lpAddresses: {
+      137: '0x4b35cdd9e64ffda6af4e822414e29f2c56f304f2',
+      80001: '0x4b35cdd9e64ffda6af4e822414e29f2c56f304f2',
+    },
+    token: serializedTokens.TVF,
+    quoteToken: serializedTokens.INR,
+  },
+  {
+    pid: 13,
+    lpSymbol: 'INR-SMRA LP',
+    lpAddresses: {
+      137: '0xdc0cda6995e0edb2ff294e4736c6648ef002845f',
+      80001: '0xdc0cda6995e0edb2ff294e4736c6648ef002845f',
+    },
+    token: serializedTokens.SMRA,
+    quoteToken: serializedTokens.INR,
+  },
+  {
+    pid: 14,
+    lpSymbol: 'INR-TANBH LP',
+    lpAddresses: {
+      137: '0xc917aac33c7144f3164673e051575ee21dea8f8b',
+      80001: '0xc917aac33c7144f3164673e051575ee21dea8f8b',
+    },
+    token: serializedTokens.TANBH,
+    quoteToken: serializedTokens.INR,
+  },
 ]
 
 export default farms
