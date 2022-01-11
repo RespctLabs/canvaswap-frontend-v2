@@ -2799,10 +2799,10 @@
     debug "^3.1.0"
     hosted-git-info "^2.6.0"
 
-"@respctclub/sdk@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@respctclub/sdk/-/sdk-0.0.4.tgz#4048a2ac32771ce24e3ad639199ac6a36254d497"
-  integrity sha512-bKmnSBeCBCH0iSqjyLlqZZn74mj30fGRdaTFORZY/DdloDEbEfP5HjF/BIIZnVi75Lz17Z9LsKS8vIppYdBl1A==
+"@respctclub/sdk@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@respctclub/sdk/-/sdk-0.0.2.tgz#73b34f155cf8aa0e5508ca2c0069bc44e81a31bd"
+  integrity sha512-SyKmOhWEZDNaPDg8EHpKobKi7AS1D5YDRm/fWL92I2/qP6rwf2igZPiEHxQr0gJHp/GlM6/NUSWBPSX/O55VGw==
   dependencies:
     "@pancakeswap-libs/pancake-swap-core" "^0.1.0"
     big.js "^5.2.2"
