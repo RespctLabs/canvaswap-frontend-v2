@@ -32,7 +32,6 @@ function useFetchListCallback(): (listUrl: string, sendDispatch?: boolean) => Pr
       if (sendDispatch) {
         dispatch(fetchTokenList.pending({ requestId, url: listUrl }))
       }
-      console.log(listUrl)
 
       return getTokenList(listUrl, ensResolver)
         .then((tokenList) => {

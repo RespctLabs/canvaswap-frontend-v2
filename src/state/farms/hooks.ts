@@ -89,6 +89,7 @@ export const usePollCoreFarmData = () => {
 export const useFarms = (): DeserializedFarmsState => {
   const farms = useSelector((state: State) => state.farms)
   const deserializedFarmsData = farms.data.map(deserializeFarm)
+  console.log(deserializedFarmsData)
   const { loadArchivedFarmsData, userDataLoaded } = farms
   return {
     loadArchivedFarmsData,
@@ -145,7 +146,7 @@ export const useLpTokenPrice = (symbol: string) => {
 // /!\ Deprecated , use the BUSD hook in /hooks
 
 export const usePriceCakeBusd = (): BigNumber => {
-  const cakeBnbFarm = useFarmFromPid(251)
+  const cakeBnbFarm = useFarmFromPid(8)
 
   const cakePriceBusdAsString = cakeBnbFarm.tokenPriceBusd
 
