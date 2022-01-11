@@ -51,7 +51,7 @@ const App: React.FC = () => {
   usePollBlockNumber()
   useEagerConnect()
   useFetchProfile()
-  usePollCoreFarmData()
+  // usePollCoreFarmData()
   useScrollOnRouteChange()
   useUserAgent()
   useInactiveListener()

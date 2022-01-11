@@ -15,7 +15,7 @@ interface SerializedTokenList {
 export const mainnetTokens = {
   wbnb: new Token(
     MAINNET,
-    '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+    '0xd2a5bc10698fd955d1fe6cb468a17809a08fd005',
     18,
     'WBNB',
     'Wrapped BNB',
@@ -63,6 +63,14 @@ export const mainnetTokens = {
     'BONDLY',
     'Bondly Token',
     'https://www.bondly.finance/',
+  ),
+  qsd: new Token(
+    BSCTESTNET,
+    '0x48603c29C218C82DEca1DEe8d025c8c8FbCf5104',
+    18,
+    'QSD',
+    'QIAN second generation dollar',
+    'https://chemix.io/home',
   ),
 }
 
