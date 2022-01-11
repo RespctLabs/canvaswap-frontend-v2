@@ -1,6 +1,6 @@
 import React from 'react'
 import { Currency, Token } from '@respctclub/sdk'
-import { Button, Text, Modal, useModal, InjectedModalProps, Link } from '@pancakeswap/uikit'
+import { Button, Text, Modal, useModal, InjectedModalProps, Link } from '@respctclub/uikit'
 import styled from 'styled-components'
 import { AutoRow } from 'components/Layout/Row'
 import { AutoColumn } from 'components/Layout/Column'
