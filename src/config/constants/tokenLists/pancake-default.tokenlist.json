@@ -11,60 +11,12 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
-      "name": "RESPCT Token",
-      "symbol": "RESPCT",
-      "address": "0x48603c29C218C82DEca1DEe8d025c8c8FbCf5104",
+      "name": "Indian National Rupee",
+      "symbol": "INR",
+      "address": "0xd7e14191eA71179171f3C85EcDDf1cE06E820013",
       "chainId": 80001,
       "decimals": 18,
-      "logoURI": ""
-    },
-    {
-      "name": "Canvas Token",
-      "symbol": "CAN",
-      "address": "0x76514486123bCdB30e324ED1a78b54b389Ea6769",
-      "chainId": 80001,
-      "decimals": 18,
-      "logoURI": ""
-    },
-    {
-      "name": "SENT Token",
-      "symbol": "SENT",
-      "address": "0x24fB1d5D00317A9144795d8d1eeacdAC57Ee8681",
-      "chainId": 80001,
-      "decimals": 18,
-      "logoURI": ""
-    },
-    {
-      "name": "Beast Token",
-      "symbol": "Beast",
-      "address": "0x69fcd17d83BAa70aBca88EcB536a042D207B02eA",
-      "chainId": 80001,
-      "decimals": 18,
-      "logoURI": ""
-    },
-    {
-      "name": "TVF Token",
-      "symbol": "TVF",
-      "address": "0x623b2109A22ab01b7E180cdA155E65246A05B3b9",
-      "chainId": 80001,
-      "decimals": 18,
-      "logoURI": ""
-    },
-    {
-      "name": "TANBH Token",
-      "symbol": "TANBH",
-      "address": "0x821d1e8AF1a4E4606d1E197A0458Fb1cE9D9b0ab",
-      "chainId": 80001,
-      "decimals": 18,
-      "logoURI": ""
-    },
-    {
-      "name": "SMRA Token",
-      "symbol": "SMRA",
-      "address": "0xD95411F15e2d74377f9DC59c55654b7dd620Ac1e",
-      "chainId": 80001,
-      "decimals": 18,
-      "logoURI": ""
+      "logoURI": "https://cdn.statically.io/img/raw.githubusercontent.com/respct-club/Creators/main/rupee.png"
     },
     {
       "name": "MKBHD Token",
@@ -72,7 +24,47 @@
       "address": "0x643CFEeEc1cC6D097ed120001d62EE0be157560d",
       "chainId": 80001,
       "decimals": 18,
-      "logoURI": ""
+      "logoURI": "https://cdn.statically.io/img/raw.githubusercontent.com/respct-club/Creators/main/mkbhd.jpg"
+    },
+    {
+      "name": "SENT Token",
+      "symbol": "SENT",
+      "address": "0x24fB1d5D00317A9144795d8d1eeacdAC57Ee8681",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": "https://cdn.statically.io/img/raw.githubusercontent.com/respct-club/Creators/main/sent.jpg"
+    },
+    {
+      "name": "Beast Token",
+      "symbol": "Beast",
+      "address": "0x69fcd17d83BAa70aBca88EcB536a042D207B02eA",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": "https://cdn.statically.io/img/raw.githubusercontent.com/respct-club/Creators/main/beast.jpg"
+    },
+    {
+      "name": "TVF Token",
+      "symbol": "TVF",
+      "address": "0x623b2109A22ab01b7E180cdA155E65246A05B3b9",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": "https://cdn.statically.io/img/raw.githubusercontent.com/respct-club/Creators/main/tvf.png"
+    },
+    {
+      "name": "TANBH Token",
+      "symbol": "TANBH",
+      "address": "0x821d1e8AF1a4E4606d1E197A0458Fb1cE9D9b0ab",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": "https://cdn.statically.io/img/raw.githubusercontent.com/respct-club/Creators/main/tanbh.jpg"
+    },
+    {
+      "name": "SMRA Token",
+      "symbol": "SMRA",
+      "address": "0xD95411F15e2d74377f9DC59c55654b7dd620Ac1e",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": "https://cdn.statically.io/img/raw.githubusercontent.com/respct-club/Creators/main/smra.jpg"
     },
     {
       "name": "Sandy coin",
@@ -88,15 +80,7 @@
       "address": "0xaE24C973cDAd107454273F9E9d4c67C8C764DA41",
       "chainId": 80001,
       "decimals": 18,
-      "logoURI": ""
-    },
-    {
-      "name": "Indian National Rupee",
-      "symbol": "INR",
-      "address": "0xd7e14191eA71179171f3C85EcDDf1cE06E820013",
-      "chainId": 80001,
-      "decimals": 18,
-      "logoURI": ""
+      "logoURI": "https://cdn.statically.io/img/raw.githubusercontent.com/respct-club/Creators/main/josh.jpg"
     }
   ]
 }

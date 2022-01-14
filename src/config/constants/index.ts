@@ -1,7 +1,7 @@
 import { ChainId, JSBI, Percent, Token } from '@respctclub/sdk'
 import { mainnetTokens, testnetTokens } from './tokens'
 
-export const ROUTER_ADDRESS = '0x924fEA4BD4c52400b609350bf254Ba9414e102c5'
+export const ROUTER_ADDRESS = '0xe1662823d8044254409eB682fE34d35792677228'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -17,7 +17,6 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     testnetTokens.SENT,
     testnetTokens.BEAST,
     testnetTokens.TANBH,
-    testnetTokens.CAN,
     testnetTokens.TVF,
     testnetTokens.wbnb,
     testnetTokens.cake,
@@ -54,7 +53,6 @@ export const SUGGESTED_BASES: ChainTokenList = {
     testnetTokens.SENT,
     testnetTokens.BEAST,
     testnetTokens.TANBH,
-    testnetTokens.CAN,
     testnetTokens.TVF,
     testnetTokens.wbnb,
     testnetTokens.cake,
@@ -74,7 +72,6 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
     testnetTokens.SENT,
     testnetTokens.BEAST,
     testnetTokens.TANBH,
-    testnetTokens.CAN,
     testnetTokens.TVF,
     testnetTokens.wbnb,
     testnetTokens.cake,

@@ -75,22 +75,6 @@ export const mainnetTokens = {
 }
 
 export const testnetTokens = {
-  RESPCT: new Token(
-    BSCTESTNET,
-    '0x48603c29C218C82DEca1DEe8d025c8c8FbCf5104',
-    18,
-    'RESPCT',
-    'RESPCT Token',
-    'https://respct.club/',
-  ),
-  CAN: new Token(
-    BSCTESTNET,
-    '0x76514486123bCdB30e324ED1a78b54b389Ea6769',
-    18,
-    'CAN',
-    'Canvas Token',
-    'https://respct.club/',
-  ),
   SENT: new Token(
     BSCTESTNET,
     '0x24fB1d5D00317A9144795d8d1eeacdAC57Ee8681',
