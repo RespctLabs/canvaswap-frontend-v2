@@ -6,7 +6,7 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [master]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -33,3 +33,4 @@ jobs:
         run: |
           yarn
           yarn build
+          npx @layer0/cli@latest init   --name rclub.tk   --team respct   --environment production   --origin rclub.tk   --deploy
