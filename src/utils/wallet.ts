@@ -55,7 +55,7 @@ export const registerToken = async (tokenAddress: string, tokenSymbol: string, t
         address: tokenAddress,
         symbol: tokenSymbol,
         decimals: tokenDecimals,
-        image: `${BASE_URL}/images/tokens/${tokenAddress}.png`,
+        image: `${BASE_URL}/images/tokens/${tokenAddress}.jpg`,
       },
     },
   })
