@@ -123,14 +123,6 @@ export const testnetTokens = {
     'MKBHD Token',
     'https://respct.club/',
   ),
-  SANDY: new Token(
-    BSCTESTNET,
-    '0x294E0c9eDC7C81bF4268Cd580308b34258220296',
-    18,
-    'SANDY',
-    'Sandy coin',
-    'https://respct.club/',
-  ),
   JOSH: new Token(
     BSCTESTNET,
     '0xaE24C973cDAd107454273F9E9d4c67C8C764DA41',

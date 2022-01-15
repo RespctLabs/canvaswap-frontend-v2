@@ -67,14 +67,6 @@
       "logoURI": "https://cdn.statically.io/img/raw.githubusercontent.com/respct-club/Creators/main/smra.jpg"
     },
     {
-      "name": "Sandy coin",
-      "symbol": "SANDY",
-      "address": "0x294E0c9eDC7C81bF4268Cd580308b34258220296",
-      "chainId": 80001,
-      "decimals": 18,
-      "logoURI": ""
-    },
-    {
       "name": "Josh Talks coin",
       "symbol": "JOSH",
       "address": "0xaE24C973cDAd107454273F9E9d4c67C8C764DA41",

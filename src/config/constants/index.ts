@@ -21,7 +21,6 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     testnetTokens.wbnb,
     testnetTokens.cake,
     testnetTokens.busd,
-    testnetTokens.SANDY,
     testnetTokens.INR,
     testnetTokens.JOSH,
   ],
@@ -57,7 +56,6 @@ export const SUGGESTED_BASES: ChainTokenList = {
     testnetTokens.wbnb,
     testnetTokens.cake,
     testnetTokens.busd,
-    testnetTokens.SANDY,
     testnetTokens.INR,
     testnetTokens.JOSH,
   ],
@@ -76,18 +74,13 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
     testnetTokens.wbnb,
     testnetTokens.cake,
     testnetTokens.busd,
-    testnetTokens.SANDY,
     testnetTokens.INR,
     testnetTokens.JOSH,
   ],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
-  [ChainId.MAINNET]: [
-    [mainnetTokens.cake, mainnetTokens.wbnb],
-
-    [testnetTokens.SANDY, testnetTokens.INR],
-  ],
+  [ChainId.MAINNET]: [[mainnetTokens.cake, mainnetTokens.wbnb]],
 }
 
 export const NetworkContextName = 'NETWORK'
