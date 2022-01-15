@@ -32,6 +32,7 @@ import { useInactiveListener } from './hooks/useInactiveListener'
 // Only pool is included in the main bundle because of it's the most visited page
 const Home = lazy(() => import('./views/Home'))
 const Farms = lazy(() => import('./views/Farms'))
+const Faucet = lazy(() => import('./views/Faucet'))
 const FarmAuction = lazy(() => import('./views/FarmAuction'))
 const NotFound = lazy(() => import('./views/NotFound'))
 const AddLiquidity = lazy(() => import('./views/AddLiquidity'))
@@ -71,6 +72,7 @@ const App: React.FC = () => {
             <Route path="/farms">
               <Farms />
             </Route>
+            <Route exact strict path="/faucet" component={Faucet} />
             <Route exact strict path="/swap" component={Swap} />
             <Route exact strict path="/swap/:outputCurrency" component={RedirectToSwap} />
             <Route exact strict path="/send" component={RedirectPathToSwapOnly} />

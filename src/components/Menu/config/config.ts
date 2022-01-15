@@ -12,6 +12,12 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     items: [],
   },
   {
+    label: t('Faucet'),
+    href: '/faucet',
+    icon: 'Earn',
+    items: [],
+  },
+  {
     label: t('Liquidity'),
     href: '/liquidity',
     icon: 'Earn',
