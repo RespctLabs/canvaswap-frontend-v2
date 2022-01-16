@@ -8,26 +8,26 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
   {
     label: t('Exchange'),
     href: '/swap',
-    icon: 'Earn',
-    items: [],
+    icon: 'Swap',
+    showItemsOnMobile: false,
   },
   {
     label: t('Faucet'),
     href: '/faucet',
     icon: 'Earn',
-    items: [],
+    showItemsOnMobile: false,
   },
   {
     label: t('Liquidity'),
     href: '/liquidity',
-    icon: 'Earn',
-    items: [],
+    icon: 'Trophy',
+    showItemsOnMobile: false,
   },
   {
     label: t('Farms'),
     href: '/farms',
     icon: 'Earn',
-    items: [],
+    showItemsOnMobile: false,
   },
   // {
   //   label: t('Pools'),
