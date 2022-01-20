@@ -1,13 +1,6 @@
 import React from 'react'
 import { useWeb3React } from '@web3-react/core'
-import {
-  Flex,
-  LogoutIcon,
-  useModal,
-  UserMenu as UIKitUserMenu,
-  UserMenuDivider,
-  UserMenuItem,
-} from '@pancakeswap/uikit'
+import { Flex, LogoutIcon, useModal, UserMenu as UIKitUserMenu, UserMenuDivider, UserMenuItem } from '@respctclub/uikit'
 import history from 'routerHistory'
 import useAuth from 'hooks/useAuth'
 import { useProfile } from 'state/profile/hooks'
@@ -41,11 +34,11 @@ const UserMenu = () => {
       <UserMenuItem as="button" onClick={onPresentTransactionModal}>
         {t('Transactions')}
       </UserMenuItem>
-      <UserMenuDivider />
-      <UserMenuItem as="button" onClick={() => history.push(`${nftsBaseUrl}/profile/${account.toLowerCase()}`)}>
+      {/* <UserMenuDivider /> */}
+      {/* <UserMenuItem as="button" onClick={() => history.push(`${nftsBaseUrl}/profile/${account.toLowerCase()}`)}>
         {t('Your NFTs')}
-      </UserMenuItem>
-      <ProfileUserMenuItem isLoading={isLoading} hasProfile={hasProfile} />
+      </UserMenuItem> */}
+      {/* <ProfileUserMenuItem isLoading={isLoading} hasProfile={hasProfile} /> */}
       <UserMenuDivider />
       <UserMenuItem as="button" onClick={logout}>
         <Flex alignItems="center" justifyContent="space-between" width="100%">

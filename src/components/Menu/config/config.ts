@@ -1,4 +1,4 @@
-import { MenuItemsType, DropdownMenuItemType, menuStatus } from '@pancakeswap/uikit'
+import { MenuItemsType, DropdownMenuItemType, menuStatus } from '@respctclub/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 import { nftsBaseUrl } from 'views/Nft/market/constants'
 
@@ -8,27 +8,33 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
   {
     label: t('Exchange'),
     href: '/swap',
+    icon: 'Swap',
+    showItemsOnMobile: false,
+  },
+  {
+    label: t('Faucet'),
+    href: '/faucet',
     icon: 'Earn',
-    items: [],
+    showItemsOnMobile: false,
   },
   {
     label: t('Liquidity'),
     href: '/liquidity',
-    icon: 'Earn',
-    items: [],
+    icon: 'Trophy',
+    showItemsOnMobile: false,
   },
   {
     label: t('Farms'),
     href: '/farms',
     icon: 'Earn',
-    items: [],
+    showItemsOnMobile: false,
   },
-  {
-    label: t('Pools'),
-    href: '/pools',
-    icon: 'Earn',
-    items: [],
-  },
+  // {
+  //   label: t('Pools'),
+  //   href: '/pools',
+  //   icon: 'Earn',
+  //   items: [],
+  // },
   // {
   //   label: t('Win'),
   //   href: '/prediction',

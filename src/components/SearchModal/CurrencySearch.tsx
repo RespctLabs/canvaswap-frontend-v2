@@ -1,6 +1,6 @@
 import React, { KeyboardEvent, RefObject, useCallback, useMemo, useRef, useState, useEffect } from 'react'
 import { Currency, ETHER, Token } from '@respctclub/sdk'
-import { Text, Input, Box } from '@pancakeswap/uikit'
+import { Text, Input, Box } from '@respctclub/uikit'
 import { useTranslation } from 'contexts/Localization'
 import { FixedSizeList } from 'react-window'
 import { useAudioModeManager } from 'state/user/hooks'
@@ -147,7 +147,7 @@ function CurrencySearch({
           <Box margin="24px -24px">
             <CurrencyList
               height={390}
-              showETH={showETH}
+              showETH={false}
               currencies={
                 filteredInactiveTokens ? filteredSortedTokens.concat(filteredInactiveTokens) : filteredSortedTokens
               }

@@ -15,7 +15,7 @@ const priceHelperLps: SerializedFarmConfig[] = [
     lpSymbol: 'QSD-MATIC LP',
     lpAddresses: {
       137: '',
-      80001: '0x7b3ae32eE8C532016f3E31C8941D937c59e055B9',
+      80001: '0xfbb00b5eeb791c5dcc7c09555f873ec24bf2210f',
     },
     token: tokens.qsd,
     quoteToken: tokens.wbnb,

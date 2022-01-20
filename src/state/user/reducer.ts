@@ -97,7 +97,7 @@ export const initialState: UserState = {
   pairs: {},
   timestamp: currentTimestamp(),
   audioPlay: true,
-  isDark: false,
+  isDark: true,
   isExchangeChartDisplayed: true,
   userChartViewMode: ChartViewMode.BASIC,
   userFarmStakedOnly: FarmStakedOnly.ON_FINISHED,

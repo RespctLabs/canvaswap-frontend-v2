@@ -17,10 +17,14 @@ export const setupNetwork = async () => {
         params: [
           {
             chainId: `0x${chainId.toString(16)}`,
-            chainName: 'Binance Smart Chain Mainnet',
+            chainName: 'Polygon Testnet',
             nativeCurrency: {
               name: 'MATIC',
+<<<<<<< HEAD
               symbol: 'bnb',
+=======
+              symbol: 'MATIC',
+>>>>>>> 7ea2d66d3ab1bfda362fd8e6c509c3ec5634a63f
               decimals: 18,
             },
             rpcUrls: nodes,
@@ -55,7 +59,7 @@ export const registerToken = async (tokenAddress: string, tokenSymbol: string, t
         address: tokenAddress,
         symbol: tokenSymbol,
         decimals: tokenDecimals,
-        image: `${BASE_URL}/images/tokens/${tokenAddress}.png`,
+        image: `${BASE_URL}/images/tokens/${tokenAddress}.jpg`,
       },
     },
   })

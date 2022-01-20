@@ -4,42 +4,102 @@ import { SerializedFarmConfig } from './types'
 const serializedTokens = serializeTokens()
 
 const farms: SerializedFarmConfig[] = [
-  /**
-   * These 3 farms (PID 0, 251, 252) should always be at the top of the file.
-   */
+  // {
+  //   pid: 0,
+  //   lpSymbol: 'RESPCT-MATIC LP',
+  //   lpAddresses: {
+  //     137: '0x0AB3DeA50Da2dD253033c9488a2f0Ce7Af665c7d',
+  //     80001: '0x0AB3DeA50Da2dD253033c9488a2f0Ce7Af665c7d',
+  //   },
+  //   token: serializedTokens.cake,
+  //   quoteToken: serializedTokens.wbnb,
+  // },
+
   {
+    pid: 8,
+    lpSymbol: 'INR-BEAST LP',
+    lpAddresses: {
+      137: '0xfbb00b5eeb791c5dcc7c09555f873ec24bf2210f',
+      80001: '0xfbb00b5eeb791c5dcc7c09555f873ec24bf2210f',
+    },
+    token: serializedTokens.BEAST,
+    quoteToken: serializedTokens.INR,
+  },
+  {
+    pid: 9,
+    lpSymbol: 'INR-MKBHD LP',
+    lpAddresses: {
+      137: '0xa5234c5ca5d07626a1c0929f0c84b708c80052f0',
+      80001: '0xa5234c5ca5d07626a1c0929f0c84b708c80052f0',
+    },
+    token: serializedTokens.MKBHD,
+    quoteToken: serializedTokens.INR,
+  },
+  {
+    pid: 10,
+    lpSymbol: 'INR-JOSH LP',
+    lpAddresses: {
+      137: '0xaf55a959599b4c83b265aee03ed6c6227a7d2fe4',
+      80001: '0xaf55a959599b4c83b265aee03ed6c6227a7d2fe4',
+    },
+    token: serializedTokens.JOSH,
+    quoteToken: serializedTokens.INR,
+  },
+  {
+    pid: 11,
+    lpSymbol: 'INR-SENT LP',
+    lpAddresses: {
+      137: '0xbb7d27923a806043c4bc8499181583fa8c136df3',
+      80001: '0xbb7d27923a806043c4bc8499181583fa8c136df3',
+    },
+    token: serializedTokens.SENT,
+    quoteToken: serializedTokens.INR,
+  },
+  {
+<<<<<<< HEAD
     pid: 0,
     lpSymbol: 'RESPCT',
+=======
+    pid: 12,
+    lpSymbol: 'INR-TVF LP',
+>>>>>>> 7ea2d66d3ab1bfda362fd8e6c509c3ec5634a63f
     lpAddresses: {
-      137: '0x9C21123D94b93361a29B2C2EFB3d5CD8B17e0A9e',
-      80001: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+      137: '0x4b35cdd9e64ffda6af4e822414e29f2c56f304f2',
+      80001: '0x4b35cdd9e64ffda6af4e822414e29f2c56f304f2',
     },
-    token: serializedTokens.syrup,
-    quoteToken: serializedTokens.wbnb,
+    token: serializedTokens.TVF,
+    quoteToken: serializedTokens.INR,
   },
   {
+<<<<<<< HEAD
     pid: 251,
     lpSymbol: 'RESPCT-MATIC LP',
+=======
+    pid: 13,
+    lpSymbol: 'INR-SMRA LP',
+>>>>>>> 7ea2d66d3ab1bfda362fd8e6c509c3ec5634a63f
     lpAddresses: {
-      137: '0x0AB3DeA50Da2dD253033c9488a2f0Ce7Af665c7d',
-      80001: '0x0AB3DeA50Da2dD253033c9488a2f0Ce7Af665c7d',
+      137: '0xdc0cda6995e0edb2ff294e4736c6648ef002845f',
+      80001: '0xdc0cda6995e0edb2ff294e4736c6648ef002845f',
     },
-    token: serializedTokens.cake,
-    quoteToken: serializedTokens.wbnb,
+    token: serializedTokens.SMRA,
+    quoteToken: serializedTokens.INR,
   },
   {
+<<<<<<< HEAD
     pid: 252,
     lpSymbol: 'BUSD-MATIC LP',
+=======
+    pid: 14,
+    lpSymbol: 'INR-TANBH LP',
+>>>>>>> 7ea2d66d3ab1bfda362fd8e6c509c3ec5634a63f
     lpAddresses: {
-      137: '0x0AB3DeA50Da2dD253033c9488a2f0Ce7Af665c7d',
-      80001: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16',
+      137: '0xc917aac33c7144f3164673e051575ee21dea8f8b',
+      80001: '0xc917aac33c7144f3164673e051575ee21dea8f8b',
     },
-    token: serializedTokens.busd,
-    quoteToken: serializedTokens.wbnb,
+    token: serializedTokens.TANBH,
+    quoteToken: serializedTokens.INR,
   },
-  /**
-   * V3 by order of release (some may be out of PID order due to multiplier boost)
-   */
 ]
 
 export default farms
