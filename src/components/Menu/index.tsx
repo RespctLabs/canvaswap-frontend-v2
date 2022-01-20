@@ -37,7 +37,7 @@ const Menu = (props) => {
       subLinks={activeMenuItem?.hideSubNav ? [] : activeMenuItem?.items}
       activeItem={activeMenuItem?.href}
       activeSubItem={activeSubMenuItem?.href}
-      buyCakeLabel={t('Buy CAKE')}
+      buyCakeLabel={t('Buy RESPCT')}
       {...props}
     />
   )

@@ -22,11 +22,11 @@ describe('formatBnb', () => {
     [265.22, '265.220'],
     [689.889, '689.889'],
     [10.8829, '10.883'],
-  ])('format %i BNB correctly with 3 decimals', (value, expected) => {
+  ])('format %i MATIC correctly with 3 decimals', (value, expected) => {
     expect(formatBnb(value)).toEqual(expected)
   })
 
-  it('returns 0 if BNB is undefined', () => {
+  it('returns 0 if MATIC is undefined', () => {
     expect(formatBnb(undefined)).toEqual('0')
   })
 })

@@ -19,7 +19,7 @@ describe('Config pools', () => {
       expect(duplicates).toHaveLength(1)
     },
   )
-  it.each(poolsToTest.filter((pool) => pool.earningToken.symbol !== 'BNB'))(
+  it.each(poolsToTest.filter((pool) => pool.earningToken.symbol !== 'MATIC'))(
     'Pool %p has the correct earning token',
     async (pool) => {
       const contract = getSouschefContract(pool.sousId)
@@ -27,7 +27,7 @@ describe('Config pools', () => {
       expect(rewardTokenAddress.toLowerCase()).toBe(pool.earningToken.address.toLowerCase())
     },
   )
-  it.each(poolsToTest.filter((pool) => pool.stakingToken.symbol !== 'BNB'))(
+  it.each(poolsToTest.filter((pool) => pool.stakingToken.symbol !== 'MATIC'))(
     'Pool %p has the correct staking token',
     async (pool) => {
       let stakingTokenAddress = null

@@ -22,9 +22,9 @@ describe('Swap', () => {
     cy.get('#swap-currency-output .token-amount-input').type('0.0', { delay: 200 }).should('have.value', '0.0')
   })
 
-  // This test requires account with some amount of BNB on it
-  // Now with random private key it shows Insufficient BNB Balance button
-  it.skip('can swap BNB for BUSD', () => {
+  // This test requires account with some amount of MATIC on it
+  // Now with random private key it shows Insufficient MATIC Balance button
+  it.skip('can swap MATIC for BUSD', () => {
     cy.get('#swap-currency-output .open-currency-select-button').click()
     cy.get('.token-item-0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56').should('be.visible')
     cy.get('.token-item-0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56').click({ force: true })
