@@ -36,7 +36,7 @@ const WalletInfo: React.FC<WalletInfoProps> = ({ hasLowBnbBalance, onDismiss }) 
         <Message variant="warning" mb="24px">
           <Box>
             <Text fontWeight="bold">{t('MATIC Balance Low')}</Text>
-            <Text as="p">{t('You need BNB for transaction fees.')}</Text>
+            <Text as="p">{t('You need MATIC for transaction fees.')}</Text>
           </Box>
         </Message>
       )}

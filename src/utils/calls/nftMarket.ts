@@ -1,7 +1,7 @@
 import { ethers } from 'ethers'
 
 /**
- * Buy a NFT with BNB
+ * Buy a NFT with MATIC
  * @param contract
  * @param collectionAddress
  * @param tokenId

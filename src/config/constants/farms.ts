@@ -9,7 +9,7 @@ const farms: SerializedFarmConfig[] = [
    */
   {
     pid: 0,
-    lpSymbol: 'CAKE',
+    lpSymbol: 'RESPCT',
     lpAddresses: {
       137: '0x9C21123D94b93361a29B2C2EFB3d5CD8B17e0A9e',
       80001: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
@@ -19,7 +19,7 @@ const farms: SerializedFarmConfig[] = [
   },
   {
     pid: 251,
-    lpSymbol: 'CAKE-BNB LP',
+    lpSymbol: 'RESPCT-MATIC LP',
     lpAddresses: {
       137: '0x0AB3DeA50Da2dD253033c9488a2f0Ce7Af665c7d',
       80001: '0x0AB3DeA50Da2dD253033c9488a2f0Ce7Af665c7d',
@@ -29,7 +29,7 @@ const farms: SerializedFarmConfig[] = [
   },
   {
     pid: 252,
-    lpSymbol: 'BUSD-BNB LP',
+    lpSymbol: 'BUSD-MATIC LP',
     lpAddresses: {
       137: '0x0AB3DeA50Da2dD253033c9488a2f0Ce7Af665c7d',
       80001: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16',

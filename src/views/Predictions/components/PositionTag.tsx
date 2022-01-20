@@ -1,15 +1,6 @@
 import React, { ReactNode } from 'react'
 import styled from 'styled-components'
-import {
-  ArrowUpIcon,
-  ArrowDownIcon,
-  Flex,
-  FlexProps,
-  Text,
-  useTooltip,
-  TooltipText,
-  InfoIcon,
-} from '@respctclub/uikit'
+import { ArrowUpIcon, ArrowDownIcon, Flex, FlexProps, Text, useTooltip, TooltipText, InfoIcon } from '@respctclub/uikit'
 import { BetPosition } from 'state/types'
 import { useTranslation } from 'contexts/Localization'
 
@@ -61,7 +52,7 @@ const PositionTag: React.FC<PositionTagProps> = ({ betPosition, children, ...pro
       </Text>
       <Text>
         {t(
-          'The Locked Price & Closed Price are exactly the same (within 8 decimals), so neither side wins. All funds entered into UP and DOWN positions will go to the weekly CAKE burn.',
+          'The Locked Price & Closed Price are exactly the same (within 8 decimals), so neither side wins. All funds entered into UP and DOWN positions will go to the weekly RESPCT burn.',
         )}
       </Text>
     </>,
