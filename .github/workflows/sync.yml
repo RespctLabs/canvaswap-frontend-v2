@@ -14,4 +14,4 @@ jobs:
           source_repo: "https://${{ secrets.HOSTING2 }}@github.com//RespctLabs/canvaswap-frontend-v2.git"
           source_branch: "master"
           destination_repo: "https://${{ secrets.HOSTING2 }}@github.com/canvasArtist/canvaswap-frontend-v2.git"
-          destination_branch: "master"
+          destination_branch: "main"
