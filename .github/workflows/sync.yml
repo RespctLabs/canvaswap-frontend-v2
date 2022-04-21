@@ -1,4 +1,5 @@
 # .github/workflows/git-sync.yml
+# Syncing
 on:
   push:
     branches:
