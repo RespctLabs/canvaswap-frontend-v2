@@ -20,11 +20,7 @@ export const setupNetwork = async () => {
             chainName: 'Polygon Testnet',
             nativeCurrency: {
               name: 'MATIC',
-<<<<<<< HEAD
-              symbol: 'bnb',
-=======
               symbol: 'MATIC',
->>>>>>> 7ea2d66d3ab1bfda362fd8e6c509c3ec5634a63f
               decimals: 18,
             },
             rpcUrls: nodes,

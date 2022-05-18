@@ -18,7 +18,6 @@ export const mainnetTokens = {
     '0xd2a5bc10698fd955d1fe6cb468a17809a08fd005',
     18,
     'WBNB',
-<<<<<<< HEAD
     'Wrapped MATIC',
     'https://www.binance.com/',
   ),
@@ -30,10 +29,6 @@ export const mainnetTokens = {
     'MATIC',
     'MATIC',
     'https://www.binance.com/',
-=======
-    'Wrapped MATIC',
-    'https://respct.club/',
->>>>>>> 7ea2d66d3ab1bfda362fd8e6c509c3ec5634a63f
   ),
   cake: new Token(
     MAINNET,
@@ -156,13 +151,8 @@ export const testnetTokens = {
     '0x094616F0BdFB0b526bD735Bf66Eca0Ad254ca81F',
     18,
     'WBNB',
-<<<<<<< HEAD
-    'Wrapped MATIC',
-    'https://www.binance.com/',
-=======
     'Wrapped MATIC',
     'https://respct.club/',
->>>>>>> 7ea2d66d3ab1bfda362fd8e6c509c3ec5634a63f
   ),
   cake: new Token(
     BSCTESTNET,

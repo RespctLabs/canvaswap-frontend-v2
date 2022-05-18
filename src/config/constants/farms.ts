@@ -56,13 +56,8 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.INR,
   },
   {
-<<<<<<< HEAD
-    pid: 0,
-    lpSymbol: 'RESPCT',
-=======
     pid: 12,
     lpSymbol: 'INR-TVF LP',
->>>>>>> 7ea2d66d3ab1bfda362fd8e6c509c3ec5634a63f
     lpAddresses: {
       137: '0x4b35cdd9e64ffda6af4e822414e29f2c56f304f2',
       80001: '0x4b35cdd9e64ffda6af4e822414e29f2c56f304f2',
@@ -71,13 +66,8 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.INR,
   },
   {
-<<<<<<< HEAD
-    pid: 251,
-    lpSymbol: 'RESPCT-MATIC LP',
-=======
     pid: 13,
     lpSymbol: 'INR-SMRA LP',
->>>>>>> 7ea2d66d3ab1bfda362fd8e6c509c3ec5634a63f
     lpAddresses: {
       137: '0xdc0cda6995e0edb2ff294e4736c6648ef002845f',
       80001: '0xdc0cda6995e0edb2ff294e4736c6648ef002845f',
@@ -86,13 +76,8 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: serializedTokens.INR,
   },
   {
-<<<<<<< HEAD
-    pid: 252,
-    lpSymbol: 'BUSD-MATIC LP',
-=======
     pid: 14,
     lpSymbol: 'INR-TANBH LP',
->>>>>>> 7ea2d66d3ab1bfda362fd8e6c509c3ec5634a63f
     lpAddresses: {
       137: '0xc917aac33c7144f3164673e051575ee21dea8f8b',
       80001: '0xc917aac33c7144f3164673e051575ee21dea8f8b',
